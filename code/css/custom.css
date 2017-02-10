@@ -1,0 +1,81 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+.bw{
+    -webkit-filter: grayscale(100%);
+}
+
+.btn{
+    border-color:#FF4081;
+    color:#FF4081!important;
+}
+
+.btn:hover{
+    background: #FF4081;
+    color:white!important;
+}
+
+.btnfilled{
+    background: #FF4081;
+    color:white!important;
+}
+
+
+input[type="submit"] {
+    height: 50px;
+    line-height: 48px;
+    border: 2px solid #FF4081;
+    background: #FF4081;
+    color: #fff!important;
+    width: 100%;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.button-tabs .active .tab-title {
+    border: 1px solid #FF4081;
+    opacity: 1;
+    background: #FF4081;
+    color:white;
+}
+
+.bg-pink{
+    background:rgba(255, 64, 129, 0.85);
+}
+
+.bg-pink .btn{
+    background: white;
+    border-color: white;
+
+}
+
+.bg-pink h4{
+    color:white;
+}
+
+.bg-pink input[type="submit"]{
+    color:#FF4081!important;
+}
+
+.ti-email {
+    text-transform: capitalize;
+}
+
+
+.nav-bar {
+  height: inherit;
+  max-height: inherit;
+}
+.nav-bar .module,
+.nav-bar .module-group {
+  height: inherit;
+}
+.nav-bar a {
+  display: inline-block;
+  height: inherit;
+    padding: 15px;
+}
+.menu li a{
+    font-size:12px;
+}
