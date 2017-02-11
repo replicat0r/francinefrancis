@@ -163,16 +163,16 @@ $(document).ready(function(){
 
     // Instagram Feed
 
-    jQuery.fn.spectragram.accessData = {
-        accessToken: '2136707.4dd19c1.d077b227b0474d80a5665236d2e90fcf',
-        clientID: '4dd19c1f5c7745a2bca7b4b3524124d0'
-    };
+//     jQuery.fn.spectragram.accessData = {
+//         accessToken: '2136707.4dd19c1.d077b227b0474d80a5665236d2e90fcf',
+//         clientID: '4dd19c1f5c7745a2bca7b4b3524124d0'
+//     };
 
-    $('.instafeed').each(function() {
-        $(this).children('ul').spectragram('getUserFeed', {
-    query: 'converse'
-});
-    });
+//     $('.instafeed').each(function() {
+//         $(this).children('ul').spectragram('getUserFeed', {
+//     query: 'converse'
+// });
+//     });
 
     // Image Sliders
 
